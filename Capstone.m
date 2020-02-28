@@ -1,5 +1,5 @@
 % Capstone Project :)
-
+%eRiK wUz hERe
 close all;
 % NREL Irradiance Data
 plot(GHI)
