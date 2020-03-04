@@ -39,7 +39,7 @@ month_length =   [  31      % Jan
               
 % go to the first day in the table
 
-for n=1:11
+for n=1:12
     if n==1
         table = January;
     elseif n==2
@@ -73,10 +73,10 @@ for n=1:11
     for row=1:num_days      % will go throug the days
 %         table(row,column)
 %         counter = counter + 1
-        for column = 3:24   %      
-            Load(counter,1) = table(row,column);
-            counter = counter + 1;
-        end
+        %         for column = 3:24   %
+%             Load(counter,1) = table(row,column);
+%             counter = counter + 1;
+        %end
     end  
 end
 % read through the 24 hours in the table
